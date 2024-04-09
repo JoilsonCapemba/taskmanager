@@ -4,18 +4,25 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-[#2E2938] ">
-      <header className="p-14 flex justify-between">
+    <main className="h-screen p-14 bg-[#2E2938] ">
+      <header className="flex justify-between">
         <Logo />
         <nav className="flex gap-x-11 text-white">
-          <a href="">About us</a>
-          <a href="">cases</a>
-          <a href="">Resources</a>
+          <a className="hover:text-[#B4ACF9]" href="">About us</a>
+          <a className="hover:text-[#B4ACF9]" href="">cases</a>
+          <a className="hover:text-[#B4ACF9]" href="">Resources</a>
         </nav>     
         <ButtonNormal title="Sign In"/>
       </header>
 
-      
+      <section className="max-w-[608px]">
+        <div className="font-bold text-[44px] text-white mb-4">
+          <span className="text-[#B4ACF9]">Creative Digital</span> Design Agency is looking for new talent
+        </div>
+        <div className="text-white text-lg">Creative Digital Design Agency is looking for new talent</div>
+        <ButtonNormal title="Sign Up"/>
+      </section>
+
 
     </main>
   );

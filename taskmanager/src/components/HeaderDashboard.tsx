@@ -2,10 +2,9 @@ import Image from "next/image";
 
 export function HeaderDashnoard(){
   return(
-      <header className="h-[72px] bg-[#363041] flex items-center justify-between p-4 p-4">
+      <header className="h-[72px] bg-[#363041] flex items-center justify-between pl-8 pr-8">
         <div>
-          <i></i>
-          <div>Add Task</div>
+          <div className="text-white">Add Task</div>
         </div>
 
         <div className="flex items-center gap-2">

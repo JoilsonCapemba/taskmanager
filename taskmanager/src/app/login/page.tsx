@@ -18,7 +18,7 @@ export default function Login(){
         <p className="text-[#B4ACF9] mb-2">Password</p>
         <input className="h-[60px] bg-[#363041] rounded-md mb-6 pl-4 text-xs" type="email" placeholder="please insert your password adress"/>
         
-        <button className="h-[60px] bg-[#B4ACF9] rounded-md">Sign In</button>
+        <button className="h-[60px] bg-[#B4ACF9] rounded-md text-[#2E2938]">Sign In</button>
 
         <p className="text-white self-center mt-6">Nao tens uma conta?  Criar conta agora</p>
       </form>

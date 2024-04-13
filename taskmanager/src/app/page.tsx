@@ -15,9 +15,9 @@ export default function Home() {
         <ButtonNormal title="Sign In"/>
       </header>
 
-      <section className="flex justify-between items-center">
+      <section className="flex justify-between items-center flex-col md:flex-row">
         <article className="max-w-[608px] mt-8">
-          <div className="font-bold text-[44px] text-white mb-4">
+          <div className="font-bold  text-4xl text-white mb-4">
             <span className="text-[#B4ACF9]">Creative Digital</span> Design Agency is looking for new talent
           </div>
           <div className="text-white text-lg">Creative Digital Design Agency is looking for new talent</div>
